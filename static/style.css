@@ -1,0 +1,18 @@
+.home_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.home_text{
+    text-align: center;
+    width: 60%;
+}
+
+.home_img img{
+
+    width: 350px;
+}

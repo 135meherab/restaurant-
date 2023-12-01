@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block title%}
+Home page
+{% endblock %}
+
+{% block css_link %}
+<link rel="stylesheet" href="{% static 'style.css'%}">
+{% endblock %}
+
+{% block content %}
+<div class="home_content">
+    <div class="home_text">
+        <h1>WE BELEIVE THAT GOOD FOOD BRINGS</h1>
+        <h1> GREAT SMILE </h1>
+    </div>
+    <div class="home_img">
+        <img src="{% static 'home_img.jpeg' %}" alt="home img">
+    </div>
+</div>
+{% endblock %}
